@@ -1,0 +1,55 @@
+.bbody{
+	background-image:url(background.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+}
+header{
+	text-align:center;
+	background-color:black;
+}
+.bnav{
+	background:black;
+	color:white;
+	height:8%;
+}
+.bnav a{
+	color:white;
+	outline:none;
+	text-decoration:none;
+}
+.bnav ul{
+	list-style-type:none;
+	display:inline;
+	font-size:36px;
+}
+#search{
+	display:inline-block;
+	border-radius:10px;
+	box-sizing:pointer;
+	margin:5px 20px;
+	float:right;
+	color:white;
+	width:35%;
+	height:75%;
+}
+.bfooter{
+	background-color:gray;
+	column-count:3;
+	font-family:"Goudy Old Style";
+	height:17%;
+	padding:0;
+}
+.bfooter ul{
+	list-style-type:none;
+}
+.bfooter a{
+	color:black;
+	outline:none;
+	text-decoration:none;
+}
+footer{
+	background-color:#dedede;
+	text-align:center;
+	font-family:"Arno Pro"
+}
